@@ -1,13 +1,8 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- *
  * @format
  */
 
 module.exports = {
-  /* Your site config here */
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -49,6 +44,14 @@ module.exports = {
       options: {
         rule: {
           include: /images/,
+        },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        custom: {
+          families: ['nobel', 'crimson-text'],
         },
       },
     },
