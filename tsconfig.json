@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "outDir": "dist",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["src/**/*.test.*"]
+}

@@ -1,0 +1,35 @@
+{
+  "env": {
+    "shared-node-browser": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [
+    {
+      "env": {
+        "node": true
+      },
+      "extends": ["eslint:recommended", "plugin:prettier/recommended"], // this appears to do nothing
+      "files": ["gatsby-*.js", "jest.config.js"],
+      "plugins": ["node"],
+      "rules": {
+        "@typescript-eslint/camelcase": "off"
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "jest", "node", "react", "react-hooks"],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
