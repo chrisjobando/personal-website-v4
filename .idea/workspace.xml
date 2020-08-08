@@ -20,23 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d11168-cacd-4bb6-9b86-829a687ff1fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/fonts.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/crimson-text-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/crimson-text-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/crimson-text-semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/crimson-text-semibold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/nobel-bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/nobel-bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/nobel-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/nobel-regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/navbar.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/colors.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/colors.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/styles.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/navbar.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,23 +59,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/public/index.html" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/types/typings/declarations.d.ts&#10;true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -136,7 +132,8 @@
       <workItem from="1596840406815" duration="3235000" />
       <workItem from="1596859902243" duration="822000" />
       <workItem from="1596897866584" duration="1152000" />
-      <workItem from="1596899037468" duration="908000" />
+      <workItem from="1596899037468" duration="3008000" />
+      <workItem from="1596902093036" duration="420000" />
     </task>
     <task id="LOCAL-00001" summary="workspace: added sharp image processor and made stricter prettier config">
       <created>1596722911747</created>
@@ -171,6 +168,11 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="324" y="150" width="894" height="650" key="#ESLint" timestamp="1596902033889">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="324" y="150" width="894" height="650" key="#ESLint/0.0.1440.900/-1194.66.1194.834@0.0.1440.900" timestamp="1596902033889" />
+    <state x="539" y="326" key="#ESLint/0.0.1440.900/-1194.91.1194.809@0.0.1440.900" timestamp="1596901758757" />
     <state x="360" y="323" key="#Prettier" timestamp="1596722685849">
       <screen x="56" y="25" width="1384" height="875" />
     </state>
@@ -183,33 +185,37 @@
       <screen x="51" y="25" width="1389" height="875" />
     </state>
     <state x="302" y="192" key="EditFileWatcherDialog/51.25.1389.875@51.25.1389.875" timestamp="1596768670670" />
-    <state width="1331" height="205" key="GridCell.Tab.0.bottom" timestamp="1596897221675">
-      <screen x="53" y="25" width="1387" height="875" />
+    <state width="1384" height="221" key="GridCell.Tab.0.bottom" timestamp="1596902088684">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1384" height="221" key="GridCell.Tab.0.bottom/0.0.1440.900/-1194.66.1194.834@0.0.1440.900" timestamp="1596902088684" />
     <state width="1384" height="214" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596772285036" />
     <state width="1333" height="214" key="GridCell.Tab.0.bottom/51.25.1389.875@51.25.1389.875" timestamp="1596811039158" />
     <state width="1330" height="205" key="GridCell.Tab.0.bottom/53.25.1387.875/-1120.-1055.2560.1055@53.25.1387.875" timestamp="1596853006063" />
     <state width="1331" height="205" key="GridCell.Tab.0.bottom/53.25.1387.875@53.25.1387.875" timestamp="1596897221675" />
     <state width="1331" height="205" key="GridCell.Tab.0.bottom/54.25.1386.875@54.25.1386.875" timestamp="1596842180528" />
-    <state width="1331" height="205" key="GridCell.Tab.0.center" timestamp="1596897221673">
-      <screen x="53" y="25" width="1387" height="875" />
+    <state width="1384" height="221" key="GridCell.Tab.0.center" timestamp="1596902088682">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1384" height="221" key="GridCell.Tab.0.center/0.0.1440.900/-1194.66.1194.834@0.0.1440.900" timestamp="1596902088682" />
     <state width="1384" height="214" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596772285034" />
     <state width="1333" height="214" key="GridCell.Tab.0.center/51.25.1389.875@51.25.1389.875" timestamp="1596811039157" />
     <state width="1330" height="205" key="GridCell.Tab.0.center/53.25.1387.875/-1120.-1055.2560.1055@53.25.1387.875" timestamp="1596853006062" />
     <state width="1331" height="205" key="GridCell.Tab.0.center/53.25.1387.875@53.25.1387.875" timestamp="1596897221673" />
     <state width="1331" height="205" key="GridCell.Tab.0.center/54.25.1386.875@54.25.1386.875" timestamp="1596842180527" />
-    <state width="1331" height="205" key="GridCell.Tab.0.left" timestamp="1596897221673">
-      <screen x="53" y="25" width="1387" height="875" />
+    <state width="1384" height="221" key="GridCell.Tab.0.left" timestamp="1596902088681">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1384" height="221" key="GridCell.Tab.0.left/0.0.1440.900/-1194.66.1194.834@0.0.1440.900" timestamp="1596902088681" />
     <state width="1384" height="214" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596772285033" />
     <state width="1333" height="214" key="GridCell.Tab.0.left/51.25.1389.875@51.25.1389.875" timestamp="1596811039139" />
     <state width="1330" height="205" key="GridCell.Tab.0.left/53.25.1387.875/-1120.-1055.2560.1055@53.25.1387.875" timestamp="1596853006061" />
     <state width="1331" height="205" key="GridCell.Tab.0.left/53.25.1387.875@53.25.1387.875" timestamp="1596897221673" />
     <state width="1331" height="205" key="GridCell.Tab.0.left/54.25.1386.875@54.25.1386.875" timestamp="1596842180526" />
-    <state width="1331" height="205" key="GridCell.Tab.0.right" timestamp="1596897221674">
-      <screen x="53" y="25" width="1387" height="875" />
+    <state width="1384" height="221" key="GridCell.Tab.0.right" timestamp="1596902088683">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1384" height="221" key="GridCell.Tab.0.right/0.0.1440.900/-1194.66.1194.834@0.0.1440.900" timestamp="1596902088683" />
     <state width="1384" height="214" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596772285035" />
     <state width="1333" height="214" key="GridCell.Tab.0.right/51.25.1389.875@51.25.1389.875" timestamp="1596811039158" />
     <state width="1330" height="205" key="GridCell.Tab.0.right/53.25.1387.875/-1120.-1055.2560.1055@53.25.1387.875" timestamp="1596853006063" />

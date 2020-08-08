@@ -3,7 +3,7 @@
 import React from 'react';
 
 // Styling
-import './navbar.sass';
+import style from './navbar.module.sass';
 
 const GlassesIcon = () => {
   return (
@@ -56,9 +56,9 @@ const GlassesIcon = () => {
 
 export const Navbar = () => {
   return (
-    <div className="Header">
+    <div className={style.NavHeader}>
       <GlassesIcon />
-      <h1 className="NameLink">Christopher Obando</h1>
+      <h1 className={style.NameLink}>Christopher Obando</h1>
     </div>
   );
 };

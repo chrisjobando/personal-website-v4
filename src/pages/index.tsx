@@ -4,11 +4,11 @@ import React from 'react';
 import '../assets/styles/styles.sass';
 import { Navbar } from '../components/Navbar';
 
-const Home = () => {
+const Home = (): JSX.Element => {
   return (
     <div>
       <Navbar />
-      <h1>HOLA, I'M CHRIS!</h1>
+      <h1>{`HOLA, I'M CHRIS!`}</h1>
       <h3>Frontend Developer and User Experience Designer in ATL</h3>
       <p>
         I’m a software engineer with a passion for social good. My experience in front-end development and UX design

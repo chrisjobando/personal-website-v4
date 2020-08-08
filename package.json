@@ -9,6 +9,7 @@
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8",
     "gatsby": "^2.24.26",
+    "gatsby-plugin-manifest": "^2.4.22",
     "gatsby-plugin-mdx": "^1.2.34",
     "gatsby-plugin-offline": "^3.2.22",
     "gatsby-plugin-react-helmet": "^3.3.10",
@@ -51,8 +52,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit":
-        "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [
@@ -80,7 +80,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "npm run lint:fix",
     "lint": "eslint . --ext .js,.json,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.json,.jsx,.ts,.tsx  --fix",
