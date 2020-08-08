@@ -64,10 +64,12 @@
   ],
   "license": "MIT",
   "lint-staged": {
-    "*.{js,ts,jsx,tsx,json,md}": [
-      "prettier --write"
+    "*.{ts,tsx,json,md}": [
+      "yarn lint:fix",
+      "prettier --write",
+      "git add"
     ],
-    "src/*.{js,ts,jsx,tsx}": [
+    "src/*.{ts,tsx}": [
       "eslint --fix"
     ]
   },
