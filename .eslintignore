@@ -1,3 +1,6 @@
 # Transpiled output
 dist/
 lib/
+
+# Gatsby Build
+public

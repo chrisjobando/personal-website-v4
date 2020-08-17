@@ -18,11 +18,13 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "paths": {
-      "&pages": ["./pages"],
-      "&projects": ["./projects"],
-      "&images": ["./assets/images"],
-      "&styles": ["./assets/styles"],
-      "&components": ["./components"]
+      "&pages/*": ["./pages/*"],
+      "&assets/*": ["./assets/*"],
+      "&projects/*": ["./projects/*"],
+      "&images/*": ["./assets/images/*"],
+      "&styles/*": ["./assets/styles/*"],
+      "&components/*": ["./components/*"],
+      "&vectors/*": ["./assets/vectors/*"]
     },
     "allowSyntheticDefaultImports": true,
 
@@ -30,5 +32,5 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true
   },
-  "exclude": ["node_modules", "jest.config.js"]
+  "exclude": ["node_modules"]
 }
