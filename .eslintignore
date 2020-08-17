@@ -4,3 +4,6 @@ lib/
 
 # Gatsby Build
 public
+
+# Editor
+.idea

@@ -20,34 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19d11168-cacd-4bb6-9b86-829a687ff1fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/global.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/pages/landing.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/vectors/dribbble.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/vectors/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/vectors/glasses.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/vectors/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SocialIcons/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SocialIcons/socialicons.module.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/crimson-text-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/crimson-text-semibold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/nobel-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fonts/nobel-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/colors.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/colors.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/fonts.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/styles.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/navbar.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/navbar.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +161,7 @@
       <workItem from="1597278291217" duration="105000" />
       <workItem from="1597684740543" duration="2455000" />
       <workItem from="1597692832912" duration="4339000" />
-      <workItem from="1597701525092" duration="822000" />
+      <workItem from="1597701525092" duration="935000" />
     </task>
     <task id="LOCAL-00001" summary="workspace: added sharp image processor and made stricter prettier config">
       <created>1596722911747</created>
