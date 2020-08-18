@@ -3,13 +3,20 @@
     "shared-node-browser": true
   },
   "extends": [
+    "prettier",
+    "prettier/react",
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "overrides": [
+    {
+      "files": "*.mdx",
+      "extends": "plugin:mdx/recommended"
+    },
     {
       "env": {
         "node": true
@@ -24,6 +31,7 @@
     {
       "files": ["*.tsx"],
       "rules": {
+        "react/display-name": 0,
         "@typescript-eslint/explicit-module-boundary-types": 0
       }
     }
@@ -32,12 +40,13 @@
   "plugins": ["@typescript-eslint", "jsx-a11y", "node", "react", "react-hooks"],
   "rules": {
     "@typescript-eslint/no-unused-vars": 2,
+    "react/prop-types": [2, { "ignore": ["children"] }],
     "@typescript-eslint/explicit-module-boundary-types": 2,
     "@typescript-eslint/explicit-function-return-type": "off"
   },
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
   }
 }
