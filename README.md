@@ -1,3 +1,4 @@
+<img align="center" src="https://raw.githubusercontent.com/chrisjobando/personal-website-v4/a3cc0b80630b5983ede369d3ed48f98b5a3e1110/src/assets/vectors/glasses.svg?token=AIL5R7MFOQRJLDSMVAZKQEK7HSJZ6">
 <h1 align="center">Christopher Obando's Personal Site</h1>
 <h3 align="center"> My Personal Website built with Gatsby, TypeScript, MDX, and SASS </h3>
 
