@@ -13,13 +13,11 @@
   <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 </p>
 
-### [View Live Site](https://chrisjobando.com)
+<p align="center">
 
-## 📋 How to Install
+[View the Live Site](https://chrisjobando.com)
 
-```sh
-yarn install
-```
+</p>
 
 ## 🛠️ Technologies used
 
