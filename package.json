@@ -50,11 +50,11 @@
     "lint-staged": "^10.2.11",
     "loader-utils": "^2.0.0",
     "prettier": "2.0.5",
+    "readme-md-generator": "^1.0.0",
     "typescript": "^3.9.7"
   },
   "engines": {
-    "node": ">=10",
-    "npm": ">=6"
+    "node": ">=12"
   },
   "husky": {
     "hooks": {
@@ -70,7 +70,7 @@
   ],
   "license": "MIT",
   "lint-staged": {
-    "*.{ts,tsx,json,md}": [
+    "*.{ts,tsx,json}": [
       "yarn lint:fix",
       "prettier --write",
       "git add"
@@ -90,12 +90,13 @@
     "clean": "gatsby clean",
     "dev": "gatsby develop",
     "format": "yarn lint:fix",
-    "lint": "eslint . --ext .js,.json,.jsx,.ts,.tsx,.md,.mdx",
-    "lint:fix": "eslint . --ext .js,.json,.jsx,.ts,.tsx,.md,.mdx  --fix",
+    "lint": "eslint . --ext .js,.json,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.json,.ts,.tsx  --fix",
     "lint:staged": "lint-staged",
     "prettier": "prettier --write '*.{js,ts,jsx,tsx,json,md,mdx}'",
     "serve": "gatsby serve",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "generate-readme": "npx readme-md-generator"
   },
   "version": "0.1.0"
 }

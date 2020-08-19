@@ -18,7 +18,7 @@
   "overrides": [
     {
       "files": "*.mdx",
-      "extends": "plugin:mdx/recommended"
+      "extends": ["plugin:mdx/recommended", "plugin:mdx/overrides"]
     },
     {
       "env": {
