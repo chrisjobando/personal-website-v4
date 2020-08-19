@@ -18,6 +18,7 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "paths": {
+      "&hooks/*": ["./hooks/*"],
       "&pages/*": ["./pages/*"],
       "&assets/*": ["./assets/*"],
       "&projects/*": ["./projects/*"],

@@ -6,6 +6,9 @@ import { Components, MDXProvider } from '@mdx-js/react';
 import '&styles/global.sass';
 import '&styles/layout.sass';
 
+import { SEO } from '&components/SEO';
+import { useLayoutQuery } from '&hooks/useLayoutQuery';
+
 const components: Components = {
   h1: ({ children, ...props }) => (
     <h1 className="Title" {...props}>
@@ -24,10 +27,20 @@ const components: Components = {
   p: ({ children, ...props }) => <p {...props}>{children}</p>,
 };
 
-const Layout = ({ children }: { children: ReactNode }) => (
-  <MDXProvider components={components}>
-    <main>{children}</main>
-  </MDXProvider>
-);
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => {
+  const { site } = useLayoutQuery();
+  const { url, title, description, titleTemplate } = site.siteMetadata;
+
+  return (
+    <MDXProvider components={components}>
+      <SEO url={url} title={title} description={description} titleTemplate={titleTemplate} />
+      <main>{children}</main>
+    </MDXProvider>
+  );
+};
 
 export default Layout;

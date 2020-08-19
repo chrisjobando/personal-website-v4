@@ -3,6 +3,12 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    url: "chrisjobando.com",
+    title: "Christopher Obando",
+    titleTemplate: "Christopher Obando | %s",
+    description: "Christopher Obando's Portfolio Website",
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-eslint`,
