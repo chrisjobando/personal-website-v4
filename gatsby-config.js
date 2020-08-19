@@ -4,9 +4,9 @@
 
 module.exports = {
   siteMetadata: {
-    url: "chrisjobando.com",
-    title: "Christopher Obando",
-    titleTemplate: "Christopher Obando | %s",
+    url: 'chrisjobando.com',
+    title: 'Christopher Obando',
+    titleTemplate: 'Christopher Obando | %s',
     description: "Christopher Obando's Portfolio Website",
   },
   plugins: [
