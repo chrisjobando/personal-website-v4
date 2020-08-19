@@ -31,7 +31,6 @@ yarn install
 
 
 ## ✨ Author
-<p align="center">
   <img src="https://avatars0.githubusercontent.com/u/35117309?s=460&u=77678ce226c0aed3f9f2093568fdfea6f63a3808&v=4" alt="Christopher Obando" width="100px"/>
   <br />
     
@@ -40,8 +39,6 @@ yarn install
   * Website: https://www.chrisjobando.com
   * Github: [@chrisjobando](https://github.com/chrisjobando)
   * LinkedIn: [@chrisjobando](https://linkedin.com/in/chrisjobando)
-
-</p>
 
 ## ❤️️ Show your support️️️
 
