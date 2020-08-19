@@ -13,11 +13,7 @@
   <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 </p>
 
-<p align="center">
-
 [View the Live Site](https://chrisjobando.com)
-
-</p>
 
 ## 🛠️ Technologies used
 
