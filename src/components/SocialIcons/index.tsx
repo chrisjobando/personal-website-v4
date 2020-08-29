@@ -14,12 +14,18 @@ export const SocialIcons = () => {
   return (
     <div className={style.SocialRow}>
       <div className={style.SocialIcon}>
-        <GithubIcon />
+        <a href="https://github.com/chrisjobando" target="_blank" rel="noreferrer">
+          <GithubIcon />
+        </a>
       </div>
       <div className={style.SocialIcon}>
-        <LinkedInIcon />
+        <a href="https://linkedin.com/in/chrisjobando" target="_blank" rel="noreferrer">
+          <LinkedInIcon />
+        </a>
       </div>
-      <DribbbleIcon />
+      <a href="https://dribbble.com/chrisjobando" target="_blank" rel="noreferrer">
+        <DribbbleIcon />
+      </a>
     </div>
   );
 };

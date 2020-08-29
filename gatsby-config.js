@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     url: 'chrisjobando.com',
     title: 'Christopher Obando',
-    titleTemplate: 'Christopher Obando | %s',
+    author: 'Christopher Obando',
     description: "Christopher Obando's Portfolio Website",
   },
   plugins: [
@@ -91,8 +91,30 @@ module.exports = {
         theme_color: `#FFF1E8`,
         short_name: `obando-site`,
         background_color: `#FFF1E8`,
-        icon: `static/favicon.ico`,
+        icon: `static/favicon.svg`,
         name: `obando-personal-site-v4`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-graphql-codegen`,
+      options: {
+        fileName: `./types/typings/graphql.d.ts`,
+        codegenConfig: {
+          typesPrefix: '',
+          maybeValue: 'T',
+          immutableTypes: true,
+          preResolveTypes: true,
+          addUnderscoreToArgsType: false,
+          avoidOptionals: { object: true },
+        },
+        codegenPlugins: [
+          {
+            resolve: 'typescript',
+            options: {
+              namingConvention: `lower-case#lowerCase`,
+            },
+          },
+        ],
       },
     },
     `gatsby-plugin-sass`,

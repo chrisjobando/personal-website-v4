@@ -1,0 +1,62 @@
+@import '../../assets/styles/colors'
+
+.SmallTileRow
+  display: flex
+  margin: 128px 0
+  justify-content: space-between
+
+.WorkTile
+  height: 500px
+  padding: 32px
+  box-sizing: border-box
+
+.WorkTileContents
+  display: flex
+  flex: 1
+
+.Large
+  width: 100%
+  display: flex
+  margin-top: 48px
+  composes: WorkTile
+
+  .TextContainer
+    margin: auto 0 auto auto
+
+.LargeImage
+  width: 100%
+  max-width: 670px
+  margin: auto 48px auto 0
+
+.Small
+  width: 512px
+  composes: WorkTile
+
+  .WorkTileContents
+    height: 100%
+    flex-direction: column
+
+  .TextContainer
+    margin-top: auto
+
+.SmallImage1
+  width: 100%
+  height: 100%
+  margin: auto
+  max-width: 150px
+
+.SmallImage2
+  composes: SmallImage1
+  max-width: 250px
+
+.Purple
+  background-color: $light-purple
+
+.Green
+  background-color: $light-green
+
+.Yellow
+  background-color: $light-yellow
+
+.Title
+  margin: 8px 0 16px

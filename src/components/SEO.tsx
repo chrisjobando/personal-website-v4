@@ -3,20 +3,34 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { useLocation } from '@reach/router';
-import { Metadata } from '&hooks/useLayoutQuery';
+import { Frontmatter } from '&components/Layout';
 
-export const SEO = ({ url, title, description, titleTemplate }: Metadata) => {
+import { useLocation } from '@reach/router';
+import { useMetadataQuery } from '&hooks/useMetadataQuery';
+
+export const SEO = ({ title, description }: Frontmatter) => {
   const { pathname } = useLocation();
+  const { site } = useMetadataQuery();
 
   const seo = {
-    title: title || titleTemplate,
-    description: description || undefined,
-    url: `${url}${pathname}`,
+    author: site.siteMetadata.author,
+    title: title || site.siteMetadata.title,
+    url: `${site.siteMetadata.url}${pathname}`,
+    description: description || site.siteMetadata.description,
   };
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate} meta={[{ name: 'description', content: seo.description }]}>
+    <Helmet
+      title={seo.title}
+      meta={[
+        { name: 'author', content: seo.author },
+        { name: 'description', content: seo.description },
+        { property: 'og:title', content: seo.title },
+        { property: 'og:description', content: seo.description },
+        { property: 'og:type', content: 'website' },
+        { property: 'og: url', content: seo.url },
+      ]}
+    >
       <html lang="en" />
     </Helmet>
   );

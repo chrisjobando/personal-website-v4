@@ -7,7 +7,7 @@ import '&styles/global.sass';
 import '&styles/layout.sass';
 
 import { SEO } from '&components/SEO';
-import { useLayoutQuery } from '&hooks/useLayoutQuery';
+import { Navbar } from '&components/Navbar';
 
 const components: Components = {
   h1: ({ children, ...props }) => (
@@ -27,17 +27,25 @@ const components: Components = {
   p: ({ children, ...props }) => <p {...props}>{children}</p>,
 };
 
-interface LayoutProps {
-  children: ReactNode;
+export interface Frontmatter {
+  title?: string;
+  description?: string;
 }
 
-const Layout = ({ children }: LayoutProps) => {
-  const { site } = useLayoutQuery();
-  const { url, title, description, titleTemplate } = site.siteMetadata;
+interface PageContext {
+  frontmatter: Frontmatter;
+}
 
+interface LayoutProps {
+  children: ReactNode;
+  pageContext: PageContext;
+}
+
+const Layout = ({ children, pageContext }: LayoutProps) => {
   return (
     <MDXProvider components={components}>
-      <SEO url={url} title={title} description={description} titleTemplate={titleTemplate} />
+      <SEO title={pageContext.frontmatter.title} description={pageContext.frontmatter.description} />
+      <Navbar />
       <main>{children}</main>
     </MDXProvider>
   );
