@@ -1434,6 +1434,8 @@ export type queryallsitepageargs = {
 export type querysiteargs = {
   buildTime: Maybe<datequeryoperatorinput>;
   siteMetadata: Maybe<sitesitemetadatafilterinput>;
+  port: Maybe<intqueryoperatorinput>;
+  host: Maybe<stringqueryoperatorinput>;
   polyfill: Maybe<booleanqueryoperatorinput>;
   pathPrefix: Maybe<stringqueryoperatorinput>;
   id: Maybe<stringqueryoperatorinput>;
@@ -1510,6 +1512,8 @@ export type queryallsitepluginargs = {
 export type site = node & {
   readonly buildTime?: Maybe<Scalars['Date']>;
   readonly siteMetadata?: Maybe<sitesitemetadata>;
+  readonly port?: Maybe<Scalars['Int']>;
+  readonly host?: Maybe<Scalars['String']>;
   readonly polyfill?: Maybe<Scalars['Boolean']>;
   readonly pathPrefix?: Maybe<Scalars['String']>;
   readonly id: Scalars['ID'];
@@ -1707,6 +1711,8 @@ export type sitefieldsenum =
   | 'siteMetadata___title'
   | 'siteMetadata___author'
   | 'siteMetadata___description'
+  | 'port'
+  | 'host'
   | 'polyfill'
   | 'pathPrefix'
   | 'id'
@@ -1799,6 +1805,8 @@ export type sitefieldsenum =
 export type sitefilterinput = {
   readonly buildTime?: Maybe<datequeryoperatorinput>;
   readonly siteMetadata?: Maybe<sitesitemetadatafilterinput>;
+  readonly port?: Maybe<intqueryoperatorinput>;
+  readonly host?: Maybe<stringqueryoperatorinput>;
   readonly polyfill?: Maybe<booleanqueryoperatorinput>;
   readonly pathPrefix?: Maybe<stringqueryoperatorinput>;
   readonly id?: Maybe<stringqueryoperatorinput>;
