@@ -95,7 +95,7 @@
     "prettier": "prettier --write '*.{js,ts,jsx,tsx,json}'",
     "serve": "gatsby serve",
     "type-check": "tsc --noEmit",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gpage"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gpage2"
   },
   "version": "0.1.0"
 }
