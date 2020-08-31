@@ -70,6 +70,7 @@ const Liv2BGirl = () => {
           everyone’s pull requests, and creating custom components for the site.
         </p>
       </div>
+      <div style={{ marginBottom: 80 }} />
     </Layout>
   );
 };

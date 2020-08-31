@@ -19,6 +19,12 @@ const Index = () => (
         to delivering an exceptional product
       </h2>
 
+      <h3>
+        <a href="Obando_Chris_Resume.pdf" download="Obando_C_Resume.pdf">
+          See my Resume
+        </a>
+      </h3>
+
       <SocialIcons />
     </div>
 
