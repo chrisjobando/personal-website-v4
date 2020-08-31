@@ -17,10 +17,6 @@
   ],
   "overrides": [
     {
-      "files": "*.mdx",
-      "extends": ["plugin:mdx/recommended", "plugin:mdx/overrides"]
-    },
-    {
       "env": {
         "node": true
       },
@@ -58,7 +54,7 @@
     "@typescript-eslint/no-unused-vars": 2,
     "react/prop-types": [2, { "ignore": ["children"] }],
     "@typescript-eslint/explicit-module-boundary-types": 2,
-    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-function-return-type": "off"
   },
   "settings": {
     "react": {
@@ -69,7 +65,7 @@
     },
     "import/resolver": {
       "node": {
-        "extensions":[".md", ".mdx", ".ts", ".tsx"]
+        "extensions":[".ts", ".tsx"]
       }
     }
   }

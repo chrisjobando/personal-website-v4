@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-eslint`,
       options: {
-        test: /\.ts$|\.tsx$|\.md$|\.mdx$/,
+        test: /\.ts$|\.tsx$/,
         exclude: /(node_modules|.cache|public)/,
         stages: ['develop'],
         options: {
@@ -41,23 +41,6 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/assets/images`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [`.md`, `.mdx`],
-        defaultLayouts: {
-          default: require.resolve('./src/components/Layout.tsx'),
-        },
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1200,
-            },
-          },
-        ],
       },
     },
     {
@@ -98,7 +81,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-graphql-codegen`,
       options: {
-        fileName: `./types/typings/graphql.d.ts`,
+        fileName: `./types/graphql.d.ts`,
         codegenConfig: {
           typesPrefix: '',
           maybeValue: 'T',

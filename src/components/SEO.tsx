@@ -3,20 +3,19 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { Frontmatter } from '&components/Layout';
-
 import { useLocation } from '@reach/router';
 import { useMetadataQuery } from '&hooks/useMetadataQuery';
+import { sitesitemetadata } from '&types/graphql';
 
-export const SEO = ({ title, description }: Frontmatter) => {
+export const SEO = ({ title, description }: sitesitemetadata) => {
   const { pathname } = useLocation();
   const { site } = useMetadataQuery();
 
-  const seo = {
-    author: site.siteMetadata.author,
-    title: title || site.siteMetadata.title,
-    url: `${site.siteMetadata.url}${pathname}`,
-    description: description || site.siteMetadata.description,
+  const seo: sitesitemetadata = {
+    author: site?.siteMetadata?.author,
+    title: title || site?.siteMetadata?.title,
+    url: `${site?.siteMetadata?.url}${pathname}`,
+    description: description || site?.siteMetadata?.description,
   };
 
   return (

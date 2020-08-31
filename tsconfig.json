@@ -20,6 +20,7 @@
     "paths": {
       "&hooks/*": ["./hooks/*"],
       "&pages/*": ["./pages/*"],
+      "&types/*": ["../types/*"],
       "&assets/*": ["./assets/*"],
       "&projects/*": ["./projects/*"],
       "&images/*": ["./assets/images/*"],

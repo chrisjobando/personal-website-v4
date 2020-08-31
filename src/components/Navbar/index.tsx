@@ -1,6 +1,7 @@
 /** @format */
 
 import React from 'react';
+import { Link } from 'gatsby';
 
 // Logo Image
 import GlassesIcon from '&vectors/glasses.svg';
@@ -11,7 +12,10 @@ import style from './navbar.module.sass';
 export const Navbar = () => {
   return (
     <div className={style.NavHeader}>
-      <GlassesIcon />
+      <Link to="/">
+        <GlassesIcon />
+      </Link>
+
       <h2 className={style.NameLink}>Christopher Obando</h2>
     </div>
   );

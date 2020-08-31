@@ -8,7 +8,7 @@ import styles from './selectedworks.module.sass';
 
 import { works } from './works';
 
-import { GetFixedImageQuery } from '../../../types/typings/graphql';
+import { GetFixedImageQuery } from '../../../types/graphql';
 
 export const SelectedWorks = () => {
   const { musicMatch, ampe, liv2bgirl } = useStaticQuery<GetFixedImageQuery>(graphql`

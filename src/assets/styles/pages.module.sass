@@ -1,0 +1,151 @@
+@import 'colors'
+
+.SubHead
+  width: 100%
+  display: flex
+  margin-bottom: 80px
+
+  .Image,
+  .Description
+    width: 512px
+    max-width: 512px
+
+  .Description
+    display: flex
+    margin-left: auto
+    flex-direction: column
+
+    p
+      margin-bottom: 20px
+
+      span
+        color: $black
+        font-weight: bold
+
+    .Link
+      text-decoration: underline
+
+
+  @media (max-width: 1140px)
+    flex-direction: column
+
+  .Image,
+  .Description
+    width: 100%
+    margin: 0 auto
+
+  .Image
+    margin-bottom: 64px
+
+.Container
+  .Timeline
+    display: flex
+    margin-bottom: 120px
+
+    .TimelineBtn
+      width: 25%
+      padding: 33px
+      margin-right: 20px
+      box-sizing: border-box
+
+      p
+        text-align: center
+
+      &:last-child
+        margin-right: 0
+
+    @media (max-width: 900px)
+      flex-direction: column
+
+    .TimelineBtn
+      width: 100%
+      margin-bottom: 20px
+
+  .Header
+    text-align: center
+    margin-bottom: 20px
+
+  .SubHeader
+    margin-bottom: 16px
+
+  .Header2
+    text-align: center
+    margin-bottom: 64px
+
+  .FirstText
+    margin-bottom: 20px
+
+  .Text
+    margin-bottom: 64px
+
+  .Table
+    margin-bottom: 64px
+
+    .Head
+      width: 100%
+      height: 48px
+      padding: 5px
+      display: flex
+      background: $light-purple
+      align-items: center
+      box-sizing: border-box
+      border-radius: 0 0 15px 15px
+      justify-content: space-around
+
+    .TableRow
+      display: flex
+      margin: 24px 0
+      align-items: center
+      justify-content: space-around
+
+    .TableItem
+      width: 50%
+      text-align: center
+
+    @media (max-width: 700px)
+      display: none
+
+  .Display
+    margin-bottom: 80px
+
+
+  .Feature
+    display: flex
+    max-width: 512px
+    flex-direction: column
+    margin: auto 0 auto auto
+
+    p
+      margin-bottom: 20px
+
+
+    @media (max-width: 1140px)
+      margin: 0
+      max-width: 100%
+
+.Title
+  padding: 6px
+  display: table
+  line-height: 68px
+  margin: 120px auto 88px
+  box-shadow: 8px 8px
+  box-sizing: border-box
+  border: 4px solid $black
+
+.MusicMatch
+  background: $light-purple
+
+.Liv2BGirl
+  background: $light-yellow
+
+.MusicTimeline
+  .TimelineBtn
+    background-color: $white
+    border: solid 3px $light-purple
+
+  .ActiveBtn
+    background-color: $light-purple
+
+.Span
+  color: $black
+  font-weight: bold
