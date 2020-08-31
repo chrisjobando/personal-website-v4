@@ -44,6 +44,7 @@
     "gatsby-plugin-eslint": "^2.0.8",
     "gatsby-plugin-tsconfig-paths": "^1.0.2",
     "gatsby-plugin-typescript": "^2.4.17",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "loader-utils": "^2.0.0",
@@ -93,7 +94,8 @@
     "lint:staged": "lint-staged",
     "prettier": "prettier --write '*.{js,ts,jsx,tsx,json}'",
     "serve": "gatsby serve",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gpage"
   },
   "version": "0.1.0"
 }
