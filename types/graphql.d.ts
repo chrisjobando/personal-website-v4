@@ -2538,7 +2538,7 @@ export type GetSiteMetadataQuery = {
 export type Unnamed_1_QueryVariables = Exact<{ [key: string]: never }>;
 
 export type Unnamed_1_Query = {
-  readonly logo?: Maybe<{
+  readonly illustration?: Maybe<{
     readonly childImageSharp?: Maybe<{ readonly fluid?: Maybe<GatsbyImageSharpFluid_NoBase64Fragment> }>;
   }>;
 };
@@ -2546,6 +2546,14 @@ export type Unnamed_1_Query = {
 export type Unnamed_2_QueryVariables = Exact<{ [key: string]: never }>;
 
 export type Unnamed_2_Query = {
+  readonly logo?: Maybe<{
+    readonly childImageSharp?: Maybe<{ readonly fluid?: Maybe<GatsbyImageSharpFluid_NoBase64Fragment> }>;
+  }>;
+};
+
+export type Unnamed_3_QueryVariables = Exact<{ [key: string]: never }>;
+
+export type Unnamed_3_Query = {
   readonly subhead?: Maybe<{
     readonly childImageSharp?: Maybe<{ readonly fluid?: Maybe<GatsbyImageSharpFluid_NoBase64Fragment> }>;
   }>;
