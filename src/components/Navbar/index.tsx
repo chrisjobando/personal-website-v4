@@ -12,7 +12,7 @@ import style from './navbar.module.sass';
 export const Navbar = () => {
   return (
     <div className={style.NavHeader}>
-      <Link to="/">
+      <Link to="/" aria-label="Link to Home Page">
         <GlassesIcon />
       </Link>
 

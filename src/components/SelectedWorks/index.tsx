@@ -56,7 +56,7 @@ export const SelectedWorks = () => {
             <h1 className="H2">{works[0].stack}</h1>
             <h2 className={`${styles.Title} H1`}>{works[0].title}</h2>
             <h3 className="H2">{works[0].role}</h3>
-            <Link to={works[0].linkTarget}>
+            <Link to={works[0].linkTarget} aria-label={`Link to ${works[0].linkTarget}`}>
               <p>{works[0].link}</p>
             </Link>
           </div>
@@ -81,7 +81,7 @@ export const SelectedWorks = () => {
                 <h1 className="H2">{work.stack}</h1>
                 <h2 className={`{styles.Title} H1`}>{work.title}</h2>
                 <h3 className="H2">{work.role}</h3>
-                <Link to={work.linkTarget}>
+                <Link to={work.linkTarget} aria-label={`Link to ${work.linkTarget}`}>
                   <p>{work.link}</p>
                 </Link>
               </div>

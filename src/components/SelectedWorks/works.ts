@@ -37,7 +37,7 @@ export const works: Works[] = [
     size: 'Small',
     colors: 'Yellow',
     title: 'Liv2BGirl',
-    link: 'Learn More',
+    link: 'Learn More About the Project',
     linkTarget: '/liv2bgirl',
     stack: 'React, Next, MongoDB',
     role: 'Senior Frontend Developer',

@@ -14,16 +14,16 @@ export const SocialIcons = () => {
   return (
     <div className={style.SocialRow}>
       <div className={style.SocialIcon}>
-        <a href="https://github.com/chrisjobando" target="_blank" rel="noreferrer">
+        <a href="https://github.com/chrisjobando" target="_blank" rel="noreferrer" aria-label="Link to GitHub">
           <GithubIcon />
         </a>
       </div>
       <div className={style.SocialIcon}>
-        <a href="https://linkedin.com/in/chrisjobando" target="_blank" rel="noreferrer">
+        <a href="https://linkedin.com/in/chrisjobando" target="_blank" rel="noreferrer" aria-label="Link to LinkedIn">
           <LinkedInIcon />
         </a>
       </div>
-      <a href="https://dribbble.com/chrisjobando" target="_blank" rel="noreferrer">
+      <a href="https://dribbble.com/chrisjobando" target="_blank" rel="noreferrer" aria-label="Link to Dribbble">
         <DribbbleIcon />
       </a>
     </div>
