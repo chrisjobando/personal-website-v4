@@ -26,8 +26,7 @@
 
 <a href="https://gatsbyjs.com/"><img width="60" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/gatsby/gatsby.png"></a>
 <a href="https://reactjs.org/"><img width="60" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></a>
-<a href="https://graphql.org/"><img width="60" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></a>
-<a href="https://mdxjs.com/"><img width="100" src="https://camo.githubusercontent.com/b3ff0eff645fbe41d0a1512793af40ef703dc9b0/68747470733a2f2f6d64782d6c6f676f2e6e6f772e7368"></a>
+<a href="https://graphql.org/"><img width="60" src="https://camo.githubusercontent.com/b3ff0eff645fbe41d0a1512793af40ef703dc9b0/68747470733a2f2f6d64782d6c6f676f2e6e6f772e7368"></a>
 <a href="https://sass-lang.com/"><img width="60" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png"></a>
 
 ## ✨ Author
