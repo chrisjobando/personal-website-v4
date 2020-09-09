@@ -1,7 +1,7 @@
 <div align="center">
     <img src="https://raw.githubusercontent.com/chrisjobando/personal-website-v4/5d3be31a6f715573d8bb85cb2a227dd8c2d65e61/src/assets/vectors/glasses.svg?token=AIL5R7IOQLF5RJ2ND5QZIG27HSKXA&sanitize=true">
     <h1>Christopher Obando's Personal Site</h1>
-    <h3> My Personal Website built with Gatsby, TypeScript, MDX, and SASS </h3>
+    <h3> My Personal Website built with Gatsby, TypeScript, and SASS </h3>
 </div>
 
 <p align="center">
